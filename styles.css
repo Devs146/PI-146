@@ -1,0 +1,59 @@
+body {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0;
+    height: 300vh; /* Define a altura para ocupar toda a tela */
+    background: linear-gradient(to bottom, black, #0D9C0D); /* Gradiente de preto para verde */
+    
+}
+
+.mapa{
+    position: relative; /* Define um contêiner de referência */
+    width: 120%; /* Largura do contêiner */
+    height: 150vh; /* Altura total da tela */
+    display: flex;
+    justify-content: end;
+}
+
+.linha {
+    position: absolute; /* Define um contêiner de referência */
+    width: 200%; /* Largura do contêiner */
+    height: 200vh; /* Altura total da tela */
+    display: flex;
+    justify-content: left;
+    
+}
+.nome {
+    position: relative; /* Define um contêiner de referência */
+    width: 600px; /* Largura do contêiner */
+    height: 200px; /* Altura total da tela */
+    padding: 360px 420px;
+}
+.numeros {
+    position: absolute; /* Define um contêiner de referência */
+    width: 600px; /* Largura do contêiner */
+    height: 200px; /* Altura total da tela */
+    padding: 90px 700px;
+}
+.imagem-canto {
+    
+    bottom: 0; /* Alinha ao fundo */
+    left: 0; /* Alinha à esquerda */
+    width: 50%; /* Ajusta o tamanho da imagem */
+    height: 100%; /* Mantém a proporção da imagem */
+}
+
+.row {
+    display: flex; /* Define cada fileira como um contêiner flexível. */
+    justify-content: center; /* Centraliza os elementos filhos horizontalmente dentro da fileira. */
+    margin-bottom: -240px; /* Define o espaçamento entre as fileiras (neste caso, negativo para sobreposição). */
+}
+
+.losango {
+    width: 100px; /* Define a largura do losango (antes da rotação). */
+    height: 100px; /* Define a altura do losango (antes da rotação). */
+    background-color: transparent; /* Torna o fundo transparente. */
+    border: 2px solid green; /* Adiciona uma borda verde ao losango. */
+    transform: rotate(45deg); /* Rotaciona o elemento 45 graus para formar um losango. */
+    margin: 25px; /* Define o espaçamento entre os losangos. */
+}
+
